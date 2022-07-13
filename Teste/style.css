@@ -1,0 +1,33 @@
+/* *********** Class *********** */
+
+* {
+    background-color: black;
+    margin: 5%;
+}
+
+.container {
+    width: 90%;
+    height: 80%;
+}
+
+
+/* *********** TAG *********** */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* *********** alt *********** */
+
+img[alt=carta] {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
